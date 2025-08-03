@@ -7,7 +7,7 @@ import Quizadd from './page/quizadd';
 import Feedbacks from './page/feedbacks';
 import Quiz from './page/quiz'
 import Home from './page/home';
-import NotFound from './pages/notfound';
+import NotFound from './page/notfound';
 
 import LandingPage from './page/landingpage';
 function App() {
