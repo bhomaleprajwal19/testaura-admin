@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from '../component/sidebar';
-import QuizCard from '../component/QuizCard';
+import QuizCard from '../component/quizcard';
 import Loader from '../component/loader';
 import { Flame } from 'lucide-react';
 
