@@ -1,0 +1,40 @@
+/* Reset spacing and ensure full height */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(to bottom right, #eff6ff,  #88bcff); /* Tailwind equivalent */
+  overflow-x: hidden;
+}
+
+body {
+   font-family:  'Ubuntu','DM Sans','Manrope',  sans-serif;
+
+
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Add these in your global CSS if Tailwind doesn’t support it directly */
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
