@@ -7,6 +7,8 @@ import Quizadd from './page/quizadd';
 import Feedbacks from './page/feedbacks';
 import Quiz from './page/quiz'
 import Home from './page/home';
+import NotFound from './pages/notfound';
+
 import LandingPage from './page/landingpage';
 function App() {
 
@@ -24,6 +26,7 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/' element={<LandingPage />} />
 
+        <Route path="*" element={<NotFound/>} />
 
         </Routes>
       </Router>
